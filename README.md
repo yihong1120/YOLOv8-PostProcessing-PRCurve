@@ -87,6 +87,7 @@ python scripts/yolo_inference_and_postprocessing.py
 ```
 
 The predicted results will be saved as **'y_preds.pkl'**.  The process flowchart illustrating the post-processing steps in the **'yolo_inference_and_postprocessing.py'** script is shown below:
+
 ![here](https://github.com/yihong1120/YOLOv8-PostProcessing-PRCurve/blob/main/images/yolov8_postprocess.png)
 
 The flowchart above illustrates the post-processing steps performed in the **'yolo_inference_and_postprocessing.py'** script. It shows the sequence of operations, including OCR, aspect ratio correction, and other specific post-processing tasks.
