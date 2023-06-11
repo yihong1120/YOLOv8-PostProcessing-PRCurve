@@ -322,10 +322,10 @@ def plot_pr_curves(results, num_classes):
     plt.show()
 
 if __name__ == '__main__':
-    with open('y_preds.pkl', 'rb') as file:
+    with open('../y_preds.pkl', 'rb') as file:
         detections = pickle.load(file)
 
-    with open('y_true.pkl', 'rb') as file:
+    with open('../y_true.pkl', 'rb') as file:
         labels = pickle.load(file)
 
     results = get_results(detections, labels)
