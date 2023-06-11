@@ -36,7 +36,7 @@ YOLOv8-PostProcessing-PRCurve/
 
 - The **'images'** folder contains images related to the project, such as the process flowchart (**'yolov8_postprocess.png'**) and the PR curves (**'PR-curves.png'**).
 
-- The **'scripts folder contains the following Python scripts:
+- The **'scripts'** folder contains the following Python scripts:
 
     - **'yolo_label_converter.py'**: Converts YOLOv8 labels to regular bounding box coordinates.
     - **'yolo_inference_and_postprocessing.py'**: Performs object detection and post-processing using YOLOv8.
