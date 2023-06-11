@@ -226,10 +226,10 @@ class DetectionPredictor(BasePredictor):
 
 def predict(cfg=DEFAULT_CFG, use_python=False):
     """Runs YOLO model inference on multiple images."""
-    model = r'/Users/YiHung/Downloads/Hti_PAOI/runs/detect/train8/weights/best.pt'
+    model = r'/route/to/your/trained/yolo/model.pt'
     
     # source should be a list of image paths
-    source = ImageProcessor.get_image_paths(r'/Users/YiHung/Downloads/Hti_PAOI/production_line_v2/valid/images')
+    source = ImageProcessor.get_image_paths(r'/route/to/your/trained/labelled/valid/images')
 
     for img_path in source:
         args = dict(model=model, source=img_path)
