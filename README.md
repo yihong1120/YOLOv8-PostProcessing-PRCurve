@@ -16,6 +16,8 @@ The YOLOv8 model used in this project is sourced from the [Ultralytics repositor
 
 ## File Organisation
 
+The repository is organiㄋed as follows:
+
 ```
 YOLOv8-PostProcessing-PRCurve/
 ├── images/
@@ -32,20 +34,20 @@ YOLOv8-PostProcessing-PRCurve/
 └── y_true.pkl
 ```
 
-- The images folder contains images related to the project, such as the process flowchart (yolov8_postprocess.png) and the PR curves (PR-curves.png).
+- The **'images'** folder contains images related to the project, such as the process flowchart (**'yolov8_postprocess.png'**) and the PR curves (**'PR-curves.png'**).
 
-- The scripts folder contains the following Python scripts:
+- The **'scripts folder contains the following Python scripts:
 
-    - yolo_label_converter.py: Converts YOLOv8 labels to regular bounding box coordinates.
-    - yolo_inference_and_postprocessing.py: Performs object detection and post-processing using YOLOv8.
-    - pr_curve_validation.py: Calculates precision and recall values and plots PR curves.
-    - run_scripts.sh: Bash script for running the necessary scripts in the correct order.
+    - **'yolo_label_converter.py'**: Converts YOLOv8 labels to regular bounding box coordinates.
+    - **'yolo_inference_and_postprocessing.py'**: Performs object detection and post-processing using YOLOv8.
+    - **'pr_curve_validation.py'**: Calculates precision and recall values and plots PR curves.
+    - **'run_scripts.sh'**: Bash script for running the necessary scripts in the correct order.
 
-- The README.md file is the project's main documentation.
+- The **'README.md'** file is the project's main documentation.
 
-- The requirements.txt file lists the required dependencies for the project.
+- The **'requirements.txt'** file lists the required dependencies for the project.
 
-- The y_preds.pkl and y_true.pkl files contain the predicted and ground truth bounding box data, respectively.
+- The **'y_preds.pkl'** and **'y_true.pkl'** files contain the predicted and ground truth bounding box data, respectively.
 
 ## Installation
 
