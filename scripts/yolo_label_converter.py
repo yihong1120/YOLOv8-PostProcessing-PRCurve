@@ -44,7 +44,7 @@ def save_as_pickle(data, file_name):
 def main():
     folder_path = r'/route/to/your/valid/labels'
     all_labels = convert_yolo_coordinates(folder_path)
-    save_as_pickle(all_labels, 'y_true.pkl')
+    save_as_pickle(all_labels, '../y_true.pkl')
 
 if __name__ == "__main__":
     main()
