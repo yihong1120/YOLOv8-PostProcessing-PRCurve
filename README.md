@@ -2,7 +2,7 @@
 
 This repository contains code for post-processing techniques and PR curve visualization for object detection using YOLOv8. The project aims to improve object detection results through advanced post-processing methods and provides an analysis of precision and recall using PR curves.
 
-The YOLOv8 model used in this project is sourced from the ![Ultralytics repository](https://github.com/ultralytics/ultralytics).
+The YOLOv8 model used in this project is sourced from the [Ultralytics repository](https://github.com/ultralytics/ultralytics).
 
 ## Contents
 - [Installation](#installation)
