@@ -229,7 +229,7 @@ def predict(cfg=DEFAULT_CFG, use_python=False):
     model = r'/route/to/your/trained/yolo/model.pt'
     
     # source should be a list of image paths
-    source = ImageProcessor.get_image_paths(r'/route/to/your/trained/labelled/valid/images')
+    source = ImageProcessor.get_image_paths(r'/route/to/your/trained/valid/images')
 
     for img_path in source:
         args = dict(model=model, source=img_path)
