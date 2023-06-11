@@ -42,7 +42,7 @@ def save_as_pickle(data, file_name):
         pickle.dump(data, file)
 
 def main():
-    folder_path = r"/Users/YiHung/Downloads/Hti_PAOI/production_line_v2/valid/labels"
+    folder_path = r'/route/to/your/valid/labels'
     all_labels = convert_yolo_coordinates(folder_path)
     save_as_pickle(all_labels, 'y_true.pkl')
 
