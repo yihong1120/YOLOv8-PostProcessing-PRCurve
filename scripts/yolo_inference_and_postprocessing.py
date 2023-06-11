@@ -243,5 +243,5 @@ def predict(cfg=DEFAULT_CFG, use_python=False):
 if __name__ == '__main__':
     predict()
 
-    with open('y_preds.pkl', 'wb') as f:
+    with open('../y_preds.pkl', 'wb') as f:
         pickle.dump(y_pred, f)
